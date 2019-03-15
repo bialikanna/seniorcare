@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Opieka osób starszych" />
+    <meta
+      name="keywords"
+      content="senior, opieka, osoba starsza, care, wrocław"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Senior Care</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=latin-ext"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/main.less" type="text/less" />
+    <script src="js/less.min.js"></script>
+    <script>
+      document.write(
+        '<script src="http://' +
+          (location.host || "${1:localhost}").split(":")[0] +
+          ':${2:35729}/livereload.js?snipver=1"></' +
+          "script>"
+      );
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header_telephone_bar">
+        <div class="wrapper">
+          <a href="tel:+48725658420">
+            <div class="header_contact_data">
+              <div class="header_telephone_icon">
+                <i class="fas fa-phone-volume"></i>
+                <!-- <a href="tel:+48725658420">
+                  <img src="images/phone-solid.svg" />
+                </a> -->
+              </div>
+              <p>
+                <a href="tel:+48725658420"> +48 725 658 420</a>
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="main_bar">
+        <div class="wrapper">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/LogoSeniorCare.svg" />
+            </a>
+          </div>
+          <div class="menu-wrapper">
+            <div class="hamburger-menu"></div>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="index.html">HOME</a>
+              </li>
+              <li>
+                <a href="services.html">USŁUGI</a>
+              </li>
+              <li>
+                <a href="about-us.html">O NAS</a>
+              </li>
+              <li>
+                <a href="work.html">PRACA</a>
+              </li>
+              <li>
+                <a href="contact.html">KONTAKT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="baner">
+      <div class="wrapper">
+        <div class="welcome">
+          <h1 class="welcome_title">
+            Witaj na stronie <span>Senior Care</span>
+          </h1>
+          <p class="welcome_text">
+            Zajmujemy się opieką osób starszych w ich miejscu zamieszkania.
+            Jesteśmy prężnie rozwijającą się firmą działającą na rynku
+            Wrocławskim jak również na terenie całego Dolnego Śląska. Zapewniamy
+            opiekę osobom starszym, po hospitalizacji, wymagającym opieki
+            czasowej lub długoterminowej, osobom których stan zdrowia
+            unieruchomił w łóżku oraz seniorom, którym z racji wieku potrzebne
+            jest okresowe wsparcie. Zapraszamy do zapoznania się naszą z ofertą.
+          </p>
+        </div>
+        <div class="welcome_images">
+          <div class="oneoftwo">
+            <div class="left">
+              <img src="images/baner1.jpg" />
+            </div>
+          </div>
+          <div class="oneoftwo">
+            <div class="right">
+              <img src="images/baner2.jpg" />
+              <div className="right-down">
+                <div class="one-of-two">
+                  <div class="left">
+                    <img src="images/baner3.png" />
+                  </div>
+                </div>
+                <div class="one-of-two">
+                  <div class="right">
+                    <img src="images/baner4.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-services">
+      <div class="wrapper">
+        <h1>Nasze usługi</h1>
+        <p>
+          Zakres usług jest indywidualnie dostosowany do potrzeb pacjenta.
+          Staramy się, aby senior był pod opieką jednej, stałej opiekunki.
+          Pozwala to na dokładne rozpoznanie potrzeb podopiecznego, nabranie
+          zaufania i zaprzyjaźnienie się z pacjentem.
+        </p>
+      </div>
+    </section>
+
+    <section id="our-services-details">
+      <div class="wrapper">
+        <div class="oneoffour">
+          <div class="box">
+            <div class="inner_box">
+              <div class="circle">
+                <img src="images/services1.svg" alt="" />
+              </div>
+              <h2>Podawanie leków</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis, inventore dolor a ipsum asperiores qui odio soluta
+                facere cupiditate eos, minima doloribus, officiis quis delectus
+                vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem
+                stosowanym jako przykładowy wypełniacz w przemyśle
+                poligraficznym. Został po raz pierwszy użyty w XV w. przez
+                nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć
+                wieków później zaczął być używany przemyśle elektronicznym.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="oneoffour">
+          <div class="box">
+            <div class="inner_box">
+              <div class="circle">
+                <img src="images/services2.svg" alt="" />
+              </div>
+              <h2>Badanie EKG</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis, inventore dolor a ipsum asperiores qui odio soluta
+                facere cupiditate eos, minima doloribus, officiis quis delectus
+                vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem
+                stosowanym jako przykładowy wypełniacz w przemyśle
+                poligraficznym. Został po raz pierwszy użyty w XV w. przez
+                nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć
+                wieków później zaczął być używany przemyśle elektronicznym.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="oneoffour">
+          <div class="box">
+            <div class="inner_box">
+              <div class="circle">
+                <img src="images/services3.svg" alt="" />
+              </div>
+              <h2>Gotowanie</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis, inventore dolor a ipsum asperiores qui odio soluta
+                facere cupiditate eos, minima doloribus, officiis quis delectus
+                vitae maxime! Ipsa, aspernatur, sint.Lorem Ipsum jest tekstem
+                stosowanym jako przykładowy wypełniacz w przemyśle
+                poligraficznym. Został po raz pierwszy użyty w XV w. przez
+                nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć
+                wieków później zaczął być używany przemyśle elektronicznym.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="oneoffour">
+          <div class="box">
+            <div class="inner_box">
+              <div class="circle">
+                <img src="images/services4.svg" alt="" />
+              </div>
+              <h2>Pierwsza pomoc</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis, inventore dolor a ipsum asperiores qui odio soluta
+                facere cupiditate eos, minima doloribus, officiis quis delectus
+                vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem
+                stosowanym jako przykładowy wypełniacz w przemyśle
+                poligraficznym. Został po raz pierwszy użyty w XV w. przez
+                nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć
+                wieków później zaczął być używany przemyśle elektronicznym.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access">
+      <div class="wrapper">
+        <div class="one-of-two">
+          <div class="inner">
+            <div class="access-box">
+              <div class="access-foto">
+                <img src="images/access1.svg" alt="" />
+              </div>
+              <div class="access-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="one-of-two">
+          <div class="inner">
+            <div class="access-box">
+              <div class="access-foto">
+                <img src="images/access2.svg" alt="" />
+              </div>
+              <div class="access-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-data">
+      <div class="wrapper">
+        <div class="one-of-three">
+          <div class="footer-box">
+            <div class="footer-icon">
+              <a href="tel:+48725658420"
+                ><img src="images/telefon.svg" alt=""
+              /></a>
+            </div>
+            <div class="footer-data">
+              <p>
+                <a href="tel:+48725658420">+48 725 658 420</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="one-of-three">
+          <div class="footer-box">
+            <div class="footer-icon mail">
+              <a href="mailto:gabriela.nowicka8@gmail.com"
+                ><img src="images/mail.svg" alt=""
+              /></a>
+            </div>
+            <div class="footer-data">
+              <p>
+                <a href="mailto:gabriela.nowicka8@gmail.com"
+                  >gabriela.nowicka8@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="one-of-three">
+          <div class="footer-box">
+            <div class="footer-icon facebook">
+              <a href="https://www.facebook.com/"
+                ><img src="images/facebook.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="second-menu">
+      <div class="wrapper">
+        <div class="box-second-menu">
+          <ul>
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="services.html">USŁUGI</a>
+            </li>
+            <li>
+              <a href="about-us.html">O NAS</a>
+            </li>
+            <li>
+              <a href="work.html">PRACA</a>
+            </li>
+            <li>
+              <a href="contact.html">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="bottom-bar">
+      <div class="wrapper">
+        <div class="one-of-two">
+          <div class="box-bottom-bar">
+            <p>2019 wszelkie prawa zastrzeżone</p>
+            <p>Projekt i realizacja: Anna Bialik</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
